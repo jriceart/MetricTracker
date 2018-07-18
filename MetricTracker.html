@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+	<div class="mainHeader"><h1><span>Metric Tracker</span></h1></div>
+	
+	
+	<form>
+	
+	<!--       ///////////////////////////////  PROTEINS  //////////////////////////         -->
+	
+		<fieldset>
+			<legend>
+				<h3>Protein</h3>
+			</legend>
+			
+			<div>
+				<input type="checkbox" id="chicken" name="protein" value="chicken">
+				<label for="chicken">Chicken</label>
+			</div>
+			<div>
+				<input type="checkbox" id="turkey" name="protein" value="turkey">
+				<label for="turkey">Turkey</label>
+			</div>
+			<div>
+				<input type="checkbox" id="fish" name="protein" value="fish">
+				<label for="fish">Fish</label>
+			</div>
+			<div>
+				<input type="checkbox" id="beef" name="protein" value="beef">
+				<label for="beef">Beef</label>
+			</div>
+			<div>
+				<input type="checkbox" id="none" name="protein" value="none">
+				<label for="none">None</label>
+			</div>
+			
+			<!--       /////////////////  Manual Protein Input  ///////////////////////        -->
+			
+			<div>
+				<input type="checkbox" id="manualProtein" name="manualProtein" value="manualProtein">
+				<label for="manualProtein">Manual Protein</label>
+				
+				<div class="manualProtein">
+					<label for="manualProteinServ">Serving in oz</label>
+						<input type="number" id="manualProteinServ" name="ManualProtein">
+					
+					<label for="manualProteinCal">Calories in g</label>
+						<input type="number" id="manualProteinCal" name="ManualProtein">
+					
+					<label for="manualProteinProtein">Protein in g</label>
+						<input type="number" id="manualProteinProtein" name="ManualProtein">
+					
+					<label for="manualProteinFat">Fat in g</label>
+						<input type="number" id="manualProteinFat" name="ManualProtein">
+					
+					<label for="manualProteinCarbs">Carbs in g</label>
+						<input type="number" id="manualProteinCarbs" name="ManualProtein">
+				</div>
+			</div>
+			
+		</fieldset>
+		
+		
+		<!--       ///////////////////////////////  CARBOHYDRATES  //////////////////////////         -->
+		
+		<fieldset>
+			<legend>
+				<h3>Carbohdrates</h3>
+			</legend>
+			
+			<div>
+				<input type="checkbox" id="whiteRice" name="carbs" value="whiteRice">
+				<label for="whiteRice">White Rice</label>
+			</div>
+			<div>
+				<input type="checkbox" id="brownRice" name="carbs" value="brownRice">
+				<label for="brownRice">Brown Rice</label>
+			</div>
+			<div>
+				<input type="checkbox" id="potato" name="carbs" value="potato">
+				<label for="potato">Potato</label>
+			</div>
+			<div>
+				<input type="checkbox" id="sweetPotato" name="carbs" value="sweetPotato">
+				<label for="sweetPotato">Beef</label>
+			</div>
+			<div>
+				<input type="checkbox" class="none" name="carbs" value="none">
+				<label for="none">None</label>
+			</div>
+			
+			<!--       /////////////////  Manual Carbohydrate Input  ///////////////////////        -->
+			
+			<div>
+				<input type="checkbox" id="manualCarb" name="carbs" value="manualCarbs">
+				<label for="manualCarbs">Manual Carbohrdrates</label>
+				
+				<div class="manualCarbs">
+					<label for="manualCarbsServ">Serving in oz</label>
+						<input type="number" id="manualCarbsServ" name="manualCarbs">
+					
+					<label for="manualCarbsCal">Calories in g</label>
+						<input type="number" id="manualCarbsCal" name="manualCarbs">
+					
+					<label for="manualCarbsProtein">Protein in g</label>
+						<input type="number" id="manualCarbsProtein" name="manualCarbs">
+					
+					<label for="manualCarbsFat">Fat in g</label>
+						<input type="number" id="manualCarbsFat" name="manualCarbs">
+					
+					<label for="manualCarbsCarbs">Carbs in g</label>
+						<input type="number" id="manualCarbsCarbs" name="manualCarbs">
+				</div>	
+			</div>
+			
+		</fieldset>
+		
+		<!--       ///////////////////////////////  VEGETABLES  //////////////////////////         -->
+		
+		<fieldset>
+			<legend>
+				<h3>Vegetables</h3>
+			</legend>
+			
+			<div>
+				<input type="checkbox" id="legumes" name="veg" value="legumes">
+				<label for="legumes">Legumes</label>
+			</div>
+			<div>
+				<input type="checkbox" id="corn" name="veg" value="corn">
+				<label for="corn">Corn</label>
+			</div>
+			<div>
+				<input type="checkbox" id="rootVeg" name="veg" value="rootVeg">
+				<label for="rootVeg">Root Vegetables</label>
+			</div>
+			<div>
+				<input type="checkbox" id="broccoli" name="veg" value="broccoli">
+				<label for="broccoli">Broccoli</label>
+			</div>
+			<div>
+				<input type="checkbox" class="none" name="veg" value="none">
+				<label for="none">None</label>
+			</div>
+			
+			<!--       /////////////////  Manual Vegetable Input  ///////////////////////        -->
+			
+			<div>
+				<input type="checkbox" id="manualVeg" name="veg" value="manualVeg">
+				<label for="manualVeg">Manual Vegetables</label>
+				
+				<div class="manualVeg">
+					<label for="manualVegServ">Serving in oz</label>
+						<input type="number" id="manualVegServ" name="manualVeg">
+					
+					<label for="manualVegCal">Calories in g</label>
+						<input type="number" id="manualVegCal" name="manualVeg">
+					
+					<label for="manualVegProtein">Protein in g</label>
+						<input type="number" id="manualVegProtein" name="manualVeg">
+					
+					<label for="manualVegFat">Fat in g</label>
+						<input type="number" id="manualVegFat" name="manualVeg">
+					
+					<label for="manualVegCarbs">Carbs in g</label>
+						<input type="number" id="manualVegCarbs" name="manualVeg">
+				</div>	
+			</div>
+			
+		</fieldset>
+		
+		<!--       ///////////////////////////////  FRUIT  //////////////////////////         -->
+		
+		<fieldset>
+			<legend>
+				<h3>Fruit</h3>
+			</legend>
+			
+			<div>
+				<input type="checkbox" id="banana" name="fruit" value="banana">
+				<label for="banana">Banana</label>
+			</div>
+			<div>
+				<input type="checkbox" id="apple" name="fruit" value="apple">
+				<label for="apple">Apple</label>
+			</div>
+			<div>
+				<input type="checkbox" id="grape" name="fruit" value="grape">
+				<label for="grape">Grapes</label>
+			</div>
+			<div>
+				<input type="checkbox" id="orange" name="fruit" value="orange">
+				<label for="orange">Orange</label>
+			</div>
+		  <div>
+				<input type="checkbox" class="none" name="fruit" value="none">
+			<label for="none">None</label>
+			</div>
+			
+			<!--       /////////////////  Manual Fruit Input  ///////////////////////        -->
+			
+			<div>
+				<input type="checkbox" id="manualFruit" name="fruit" value="manualFruit">
+				<label for="manualFruit">Manual Fruit</label>
+				
+				<div class="manualFruit">
+					<label for="manualFruitServ">Serving in oz</label>
+						<input type="number" id="manualFruitServ" name="manualFruit">
+					
+					<label for="manualFruitCal">Calories in g</label>
+						<input type="number" id="manualFruitCal" name="manualFruit">
+					
+					<label for="manualFruitProtein">Protein in g</label>
+						<input type="number" id="manualFruitProtein" name="manualFruit">
+					
+					<label for="manualFruitFat">Fat in g</label>
+						<input type="number" id="manualFruitFat" name="manualFruit">
+					
+					<label for="manualFruitCarbs">Carbs in g</label>
+						<input type="number" id="manualFruitCarbs" name="manualFruit">
+				</div>	
+			</div>
+			
+		</fieldset>
+		
+		
+		
+		
+	</form>
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
